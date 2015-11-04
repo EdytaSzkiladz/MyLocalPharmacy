@@ -1,0 +1,224 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyLocalPharmacy.View.YourDetailsLogin"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:vm="clr-namespace:MyLocalPharmacy.View"
+    shell:SystemTray.IsVisible="True">    
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" IsHitTestVisible="{Binding HitVisibility,Mode=TwoWay}" >
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding Background, Source={StaticResource MultiResImageChooserUri}}"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="6.5*"/>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Popup x:Name="popup"   Grid.Row="0" Margin="14,300,0,0" IsOpen="{Binding IsPopupOpen, Mode=TwoWay}" >
+            <Grid Height="200"  Width="454" Background="#FF566A74" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"></RowDefinition>
+                    <RowDefinition Height="3*"></RowDefinition>
+                    <RowDefinition Height="3*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12" Foreground="White"/>
+                <TextBlock Text="{Binding PopupText}" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="1" Foreground="White"/>
+                <Button x:Name="btnOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding OkCommand}" Foreground="White" BorderBrush="White"/>
+            </Grid>
+        </Popup>
+        <Popup x:Name="popupSuccess"  Margin="14,300,0,0" Grid.Row="0" IsOpen="{Binding IsSuccessPopupOpen, Mode=TwoWay}" >
+            <Grid Height="200"  Width="454" Background="#FF566A74" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"></RowDefinition>
+                    <RowDefinition Height="3*"></RowDefinition>
+                    <RowDefinition Height="3*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12" Foreground="White"/>
+                <TextBlock Text="{Binding SuccessPopupText}" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Foreground="White"/>
+                <Button x:Name="btnSuccess" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding SuccessCommand}" Foreground="White" BorderBrush="White"/>
+            </Grid>
+        </Popup>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="0,0,0,0" Background="#FFC0E2E1">
+            <TextBlock Text="MY LOCAL PHARMACY" Style="{StaticResource PhoneTextNormalStyle}" Foreground="Black"/>
+            <TextBlock Text="your details" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="Black"/>
+        </StackPanel>
+
+        <ScrollViewer Name="scrollVw" VerticalScrollBarVisibility="Auto" Grid.Row="1">
+            
+            <!--ContentPanel - place additional content here-->
+            <Grid x:Name="ContentPanel"    Margin="12,0,12,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*">
+                    </ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                
+                <TextBlock x:Name="tbkHeader" Margin="12,0,0,0" 
+                       Grid.Row="0" Grid.ColumnSpan="2" TextWrapping="Wrap" 
+                       Text="Before you can order repeat medication, you have to nominate mgs brand to recieve orders on your behalf, either in person, by paper, or electronically until further notice." Foreground="Black"/>
+
+                <TextBlock x:Name="tbkMandatoryFields" Margin="55,0,0,10" 
+                       Grid.Row="1" Grid.ColumnSpan="2" TextWrapping="Wrap" Foreground="Red" 
+                       Text="Fields marked with * are mandatory."/>
+                
+                <Border  Grid.Row="2" Grid.Column="0"  BorderBrush="Red" BorderThickness="{Binding FirstnameBorder,Mode=TwoWay}">
+                    <toolkit:PhoneTextBox x:Name="tbxFirstName" Text="{Binding FirstName,Mode=TwoWay}"  HorizontalAlignment="Left" 
+                              Hint="First name *" TextWrapping="NoWrap" InputScope="PersonalFullName" Width="221" BorderBrush="Black"/>
+                </Border>
+                <TextBlock x:Name="tbkValidateFirstName" Margin="12,0,0,5" Grid.Row="3" Grid.Column="0" Text="{Binding FirstNameMessage}" 
+                           Visibility="{Binding IsFirstNameValidatorVisible}" Foreground="Red"/>
+                
+                <Border  Grid.Row="2" Grid.Column="1" Margin="9,0,0,0"  BorderBrush="Red" BorderThickness="{Binding LastnameBorder,Mode=TwoWay}">
+                    <toolkit:PhoneTextBox x:Name="tbxLastName" InputScope="PersonalFullName" Text="{Binding LastName,Mode=TwoWay}"  HorizontalAlignment="Left"  
+                   Grid.Row="2" Grid.Column="1" TextWrapping="NoWrap" Hint="Last name *" Width="213" BorderBrush="Black"/>
+                </Border>
+                <TextBlock x:Name="tbkValidateLastName" TextWrapping="Wrap" Grid.Row="3" Grid.Column="1" Text="{Binding LastNameMessage}" 
+                           Visibility="{Binding IsLastNameValidatorVisible}" Margin="27,0,0,5" Foreground="Red"/>
+
+                <Border  Grid.Row="4" Grid.ColumnSpan="2"  BorderBrush="Red" BorderThickness="{Binding AddresLine1Border,Mode=TwoWay}">
+                    <toolkit:PhoneTextBox x:Name="tbxAdd1" Text="{Binding AddressLine1,Mode=TwoWay}"  
+                                      TextWrapping="NoWrap" Hint="Address Line 1 *" BorderBrush="Black" Margin="0,0,-10,0"/>
+                </Border>
+                <TextBlock x:Name="tbkValidateAddressLine1"  Margin="12,0,0,5" Grid.Row="5" Grid.ColumnSpan="2" Text="{Binding AddressLine1Message}" 
+                           Visibility="{Binding IsAddressLine1ValidatorVisible}" Foreground="Red"/>
+
+                <Border  Grid.Row="6" Grid.ColumnSpan="2"  BorderBrush="Red" BorderThickness="{Binding AddresLine2Border,Mode=TwoWay}">
+                    <toolkit:PhoneTextBox x:Name="tbxAdd2"  Text="{Binding AddressLine2,Mode=TwoWay}" TextWrapping="NoWrap" Hint="Address Line 2 *" BorderBrush="Black"/>
+                </Border>
+                <TextBlock x:Name="tbkValidateAddressLine2"  Margin="12,0,0,5" Grid.Row="7" Grid.ColumnSpan="2" Text="{Binding AddressLine2Message}" 
+                           Visibility="{Binding IsAddressLine2ValidatorVisible}" Foreground="Red"/>
+
+                <Border  Grid.Row="8" Grid.ColumnSpan="2" BorderBrush="Red" BorderThickness="{Binding AddresLine3Border,Mode=TwoWay}">
+                    <toolkit:ListPicker x:Name="Country"  ItemsSource="{Binding Listitems,Mode=TwoWay}" 
+                                        SelectedItem="{Binding SelectedCountry,Mode=TwoWay}"
+                                        SelectedIndex="{Binding PickerSelectedIndex,Mode=TwoWay}" 
+                                        Foreground="Black" BorderBrush="Black">
+                        </toolkit:ListPicker>
+                    </Border>
+                <TextBlock x:Name="tbkValidateAddressLine3"  Margin="12,0,0,5" Grid.Row="9" Grid.ColumnSpan="2" Text="{Binding AddressLine3Message}" 
+                         TextWrapping="NoWrap"  Visibility="{Binding IsAddressLine3ValidatorVisible}" Foreground="Red"/>
+               
+                <Border  Grid.Row="10" Grid.ColumnSpan="2" BorderBrush="Red" BorderThickness="{Binding PostCodeBorder,Mode=TwoWay}">
+                    <toolkit:PhoneTextBox x:Name="tbxPinCode"  Text="{Binding PostCode,Mode=TwoWay}" 
+                                     TextWrapping="NoWrap" Hint="Postcode *" BorderBrush="Black"/>
+                </Border>
+                <TextBlock x:Name="tbkValidatePostCode" Grid.Row="11" Grid.ColumnSpan="2" Text="{Binding PostCodeMessage}" 
+                       TextWrapping="NoWrap"    Visibility="{Binding IsPostCodeValidatorVisible}" Foreground="Red"  Margin="12,0,0,5"/>
+                
+                <TextBlock x:Name="tbkDOBHeader" Grid.Row="12" Grid.ColumnSpan="2" Text="Date of Birth" 
+                       TextWrapping="NoWrap"    Foreground="Black"  Margin="12"/>
+                <Border  Grid.Row="13" Grid.ColumnSpan="2" BorderBrush="Red" BorderThickness="{Binding DOBBorder,Mode=TwoWay}">
+                    <toolkit:DatePicker  x:Name="tbxDOB"  Value="{Binding DOB,Mode=TwoWay}"  Foreground="{StaticResource PhoneBackgroundBrush}" BorderBrush="Black" VerticalAlignment="Bottom"/>
+                </Border>  
+                <TextBlock x:Name="tbkValidateDOB" Grid.Row="14" Grid.ColumnSpan="2" Text="{Binding DOBMessage}" 
+                        TextWrapping="NoWrap"   Visibility="{Binding IsDOBValidatorVisible}" Foreground="Red"  Margin="12,0,0,5"/>
+
+                <Border  Grid.Row="15" Grid.ColumnSpan="2" BorderBrush="Red" BorderThickness="{Binding NHSLengthBorder,Mode=TwoWay}">
+                    <toolkit:PhoneTextBox x:Name="tbxNHS" MaxLength="10" Text="{Binding NHS,Mode=TwoWay}"  
+                     Hint="NHS Number (Optional)" TextWrapping="NoWrap" BorderBrush="Black" InputScope="Number"/>
+                </Border>
+                <TextBlock x:Name="tbkNHS"   Grid.Row="16" Grid.ColumnSpan="2" Text="{Binding NHSLengthMessage}" 
+                           Visibility="{Binding IsNHSLengthValidatorVisible}" TextWrapping="NoWrap" Foreground="Red"  Margin="12,0,0,5"/>
+                
+                <RadioButton x:Name="female" Grid.Row="17"  GroupName="gender" Content="Female" IsChecked="{Binding IsFemaleSelected,Mode=TwoWay}" Grid.Column="0" Foreground="Black" BorderBrush="Black"/>
+                <RadioButton x:Name="male" Grid.Row="17" GroupName="gender"  Content="Male" IsChecked="{Binding IsMaleSelected,Mode=TwoWay}"  Grid.Column="1" Foreground="Black" BorderBrush="Black" Background="White"/>
+
+                <Border  Grid.Row="18"  Grid.ColumnSpan="2" BorderBrush="Red" BorderThickness="{Binding MobilePhoneBorder,Mode=TwoWay}">
+                    <toolkit:PhoneTextBox x:Name="tbxPhNo" MaxLength="12" InputScope="Number" Text="{Binding MobileNo,Mode=TwoWay}" 
+                                       TextWrapping="NoWrap" Hint="Mobile number *" BorderBrush="Black"/>
+                </Border>
+                <TextBlock x:Name="tbkValidateMobilePhone" Grid.Row="19" Grid.ColumnSpan="2" Text="{Binding MobilePhoneMessage}" 
+                        TextWrapping="NoWrap"   Visibility="{Binding IsMobilePhoneValidatorVisible}" Foreground="Red" Margin="12,0,0,5"/>
+
+                <Border  Grid.Row="20"  Grid.ColumnSpan="2" BorderBrush="Red" BorderThickness="{Binding EmailBorder,Mode=TwoWay}">
+                    <toolkit:PhoneTextBox x:Name="tbxEmail" InputScope="EmailUserName"  Text="{Binding EmailId,Mode=TwoWay}" 
+                                     TextWrapping="NoWrap" Hint="Email address *" BorderBrush="Black" />
+                </Border>
+                <TextBlock x:Name="tbkValidateEmail" Grid.Row="21" Grid.ColumnSpan="2" Text="{Binding EmailMessage}" 
+                         TextWrapping="NoWrap"  Visibility="{Binding IsEmailValidatorVisible}" Foreground="Red"  Margin="12,0,0,5"/>
+
+                <Border  Grid.Row="22" Grid.ColumnSpan="2" BorderBrush="Red" BorderThickness="{Binding ConfirmEmailBorder,Mode=TwoWay}">
+                    <toolkit:PhoneTextBox x:Name="tbxConfirmEmail" InputScope="EmailUserName" 
+                                  TextWrapping="NoWrap"    Text="{Binding ConfirmEmail,Mode=TwoWay}" Hint="Confirm email address *" BorderBrush="Black"/>
+                </Border>
+                <TextBlock x:Name="tbkValidateEmailConfirm" Grid.Row="23" Grid.ColumnSpan="2" Text="{Binding EmailConfirmMessage}" 
+                         TextWrapping="NoWrap"  Visibility="{Binding IsEmailConfirmValidatorVisible}" Foreground="Red"  Margin="12,0,0,5"/>
+
+                <Button x:Name="btnSurgeonLogin"  Grid.Row="24" Grid.ColumnSpan="2" Background="#FFC0E2E1" Command="{Binding SurgeryPage}" Foreground="Black" BorderBrush="Black">
+                    <TextBlock Text="{Binding ButtonValue}" TextWrapping="NoWrap" TextAlignment="Center" Width="400" ></TextBlock>
+                </Button>
+                <TextBlock x:Name="tbklabel" TextWrapping="NoWrap" Margin="12,0,0,0" Text="Verification method:" Grid.Row="25" Foreground="Black"></TextBlock>
+                <RadioButton x:Name="mail" GroupName="verificationmode"  Grid.Row="26" Content="Email" IsChecked="{Binding IsMailSelected,Mode=TwoWay}" Grid.Column="0" Foreground="Black" BorderBrush="Black"/>
+                <RadioButton  x:Name="sms" GroupName="verificationmode" Grid.Row="26" Content="SMS" IsChecked="{Binding IsSmsSelected,Mode=TwoWay}" Grid.Column="1" Foreground="Black" BorderBrush="Black" />
+
+                <Border  Grid.Row="27" Grid.ColumnSpan="2" BorderBrush="Red" BorderThickness="{Binding TCBorder,Mode=TwoWay}">
+                    <Grid Grid.Row="27" Grid.ColumnSpan="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                            <ColumnDefinition Width="8*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <CheckBox x:Name="chkbxTC" IsChecked="{Binding CheckedorNot,Mode=TwoWay}"  Grid.Column="0" Foreground="Black" BorderBrush="Black" Background="White"/>
+                        <RichTextBox TextWrapping="Wrap" Grid.Column="1" Foreground="Black">
+                            <Paragraph>
+                                <Run Text="Having read and agreed the " />
+                                <Hyperlink x:Name="hyprlnkTermsCond" Command="{Binding NavigateTo}" Foreground="Black">terms and conditions</Hyperlink>
+                                <Run Text=", I nominate mgs brand to electronically manage on my behalf, repeat prescription requests with my registered doctor's surgery. This in turn will allow mgs brand to recieve my prescriptions on paper or via Electronic Transfer of Prescription(ETP)." />
+                            </Paragraph>
+                        </RichTextBox>
+                    </Grid>
+                </Border>
+                <TextBlock x:Name="tbkValidateTC" Grid.Row="28" Foreground="Red"  Margin="12,0,0,5" Grid.ColumnSpan="2" Text="{Binding TCMessage}" Visibility="{Binding IsTCValidatorVisible}"/>
+            </Grid>
+        </ScrollViewer>
+        <ProgressBar  x:Name="progress" Height="10" IsIndeterminate="True" Grid.Row="2" Grid.ColumnSpan="2"
+            Visibility="{Binding ProgressBarVisibilty}">
+        </ProgressBar>
+        <Button x:Name="btnSend" Click="btnSend_Click" Content="Send" Grid.Row="3"  Background="#FFC0E2E1" Grid.ColumnSpan="2" Command="{Binding SaveTo}" Foreground="Black" BorderBrush="Black">
+        </Button>
+    </Grid>
+</phone:PhoneApplicationPage>

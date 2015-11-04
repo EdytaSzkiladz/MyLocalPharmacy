@@ -1,0 +1,135 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyLocalPharmacy.View.SettingsHomePanorama"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding Background, Source={StaticResource MultiResImageChooserUri}}"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="0,0,0,0"  Background="{Binding PrimaryColour}" >
+            <TextBlock Text="My Local Pharmacy" Foreground="Black" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="settings" Foreground="Black" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="0,0,0,0" Height="2" VerticalAlignment="Top" Background="{Binding SecondaryColour}" />
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="2" Margin="-12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+
+            </Grid.RowDefinitions>
+            <Button  HorizontalContentAlignment="Left"  BorderThickness="0,0,0,1" Command="{Binding UpdateDetails}" Grid.Row="0">
+                <!--<StackPanel HorizontalAlignment="Left">-->
+                <Grid x:Name="DetailsImage">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" ></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Assets/Icons/details48.png"   Grid.Column="0" ></Image>
+                    <TextBlock Text="Your Details" Foreground="Black"  VerticalAlignment="Center" Grid.Column="1" Margin="10,9,-360,9"></TextBlock>
+                </Grid>
+                <!--</StackPanel>-->
+
+            </Button>
+
+            <!--<Image Source="~/Images/edit.png" Grid.Row="1" Grid.Column="0"></Image>-->
+            <Button  HorizontalContentAlignment="Left" BorderThickness="0,0,0,1" Command="{Binding ChangePIN}" Grid.Row="1" >
+                <Grid x:Name="PinImage">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" ></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Assets/Icons/pin48.png"   Grid.Column="0" ></Image>
+                    <TextBlock Text="Change security PIN"  Foreground="Black"  VerticalAlignment="Center" Grid.Column="1" Margin="10,9,-360,9"></TextBlock>
+                </Grid>
+            </Button>
+
+            <!--<Image Source="~/Images/edit.png" Grid.Row="2" Grid.Column="0"></Image>-->
+            <Button Command="{Binding LocalServiceDistance}" BorderThickness="0,0,0,1" HorizontalContentAlignment="Left" Grid.Row="2" >
+                <Grid x:Name="LocalServicesImage">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" ></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Assets/Icons/location48.png"   Grid.Column="0" ></Image>
+                    <TextBlock Text="Local services distance"  Foreground="Black"  VerticalAlignment="Center" Grid.Column="1" Margin="10,9,-360,9"></TextBlock>
+                </Grid>
+            </Button>
+
+
+            <Popup x:Name="popupLocalServDistance"   IsOpen="{Binding IsPopupOpen, Mode=TwoWay}" Margin="28,10,-10,80" Grid.Row="1" Grid.RowSpan="2" >
+                <Grid Background="DarkSlateGray" Height="250"  Width="453">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Local services distance" Grid.ColumnSpan="3" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12"/>
+                    <TextBlock Text="Current distance:" Width="150" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"  />
+                    <TextBlock Text="{Binding Value,ElementName=sliderBar, Mode=TwoWay}" Foreground="White" Grid.Row="1" Width="50" Grid.Column="1" VerticalAlignment="Center"  Margin="-25,0,0,0"/>
+                    <TextBlock Text="mile(s)" Foreground="White" Grid.Row="1"  Grid.Column="1" VerticalAlignment="Center"  Margin="0,11" Grid.ColumnSpan="2" HorizontalAlignment="Right" Width="222"/>
+                    <Slider x:Name="sliderBar"  Value="{Binding MilesDistance, Mode=TwoWay}" Grid.Row="2" Grid.ColumnSpan="3" Minimum="0" Maximum="60" SmallChange="1" LargeChange="10" ValueChanged="sliderBar_ValueChanged" ></Slider>
+                    <Button x:Name="btnCancel" Content="Cancel"  Grid.Row="3" Grid.Column="0" BorderThickness="1,1,1,1" Command="{Binding CancelCommand}"/>
+                    <Button x:Name="btnOk" Content="Set" Grid.Row="3" Grid.Column="2" BorderThickness="1,1,1,1" Command="{Binding OkCommand}"/>
+                </Grid>
+            </Popup>
+
+
+            <Button  Command="{Binding TermsConditions}" BorderThickness="0,0,0,1" HorizontalContentAlignment="Left" Grid.Row="3" >
+                <Grid x:Name="TCImage">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" ></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Assets/Icons/info48.png"   Grid.Column="0" ></Image>
+                    <TextBlock Text="Terms and Conditions"  Foreground="Black"  VerticalAlignment="Center" Grid.Column="1" Margin="10,9,-360,9"></TextBlock>
+                </Grid>
+            </Button>
+
+            <!--<Image Source="~/Images/edit.png" Grid.Row="5" Grid.Column="0"></Image>-->
+            <Button  Command="{Binding Support}" BorderThickness="0,0,0,1" HorizontalContentAlignment="Left" Grid.Row="4" >
+                <Grid x:Name="SupportImage">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" ></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Assets/Icons/support48.png"   Grid.Column="0" ></Image>
+                    <TextBlock Text="Support"   Foreground="Black" VerticalAlignment="Center" Grid.Column="1" Margin="10,9,-360,9"></TextBlock>
+                </Grid>
+            </Button>
+            <StackPanel Grid.Row="5"></StackPanel>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

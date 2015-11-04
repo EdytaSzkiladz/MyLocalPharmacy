@@ -1,0 +1,73 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyLocalPharmacy.View.PillEditItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding Background, Source={StaticResource MultiResImageChooserUri}}"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="0,0,0,0" Background="{Binding PrimaryColour}" Height="80">
+            <TextBlock Text="edit pills" FontSize="50" Foreground="{Binding FontColor}" Margin="12,0,0,0" Style="{StaticResource PhoneTextTitle1Style}" />
+        </StackPanel>
+        <StackPanel  Grid.Row="1" Height="5"  VerticalAlignment="Top" Background="{Binding SecondaryColour}" ></StackPanel>
+
+        <Popup x:Name="PopupSearch" IsOpen="False">
+            <Grid Background="#FFD0E2E6" Height="820" Width="480" Margin="0,0,0,0" Canvas.ZIndex="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="6*"/>
+                </Grid.RowDefinitions>
+                <toolkit:AutoCompleteBox Grid.Row="0" x:Name="acbDrugSearch" 
+                                        Background="LightGray" Margin="0,30.5,0,5"
+                                        HorizontalAlignment="Stretch" TextChanged="acbDrugSearch_TextChanged"  
+                                       FilterMode="Contains" SelectionChanged="acbDrugSearch_SelectionChanged" Loaded="acbDrugSearch_Loaded"   />
+
+                <!--Text="Pills Search..."-->
+
+                <ListBox Grid.Row="1"  Foreground="Black" x:Name="lstDrugSearch" Margin="12,1,10,65" SelectionChanged="lstDrugSearch_SelectionChanged" FontSize="23" />
+            </Grid>
+
+        </Popup>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="2" Margin="12,5,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.8*"></ColumnDefinition>
+                <ColumnDefinition Width=".5*"></ColumnDefinition>
+                <ColumnDefinition Width=".5*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <toolkit:PhoneTextBox x:Name="tbxEditDrugSearchitems" Grid.Column="0" MaxLength="75" Height="80" HorizontalAlignment="Left" Text="{Binding PillNamesToUpdate, Mode=TwoWay}"  
+                               Background="LightGray" Margin="0,19,0,14" Grid.Row="0"   Width="307" Grid.ColumnSpan="2" TextChanged="tbxEditDrugSearchitems_TextChanged" />
+            <Image  Grid.Row="0" Source="/Assets/Icons/feature.search.png" x:Name="imgSearch" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="103"   Tap="imgSearch_Tap" Width="108" Grid.ColumnSpan="2" />
+            <toolkit:PhoneTextBox  Grid.Row="0" x:Name="tbxQty" InputScope="Number" Text="{Binding Qty, Mode=TwoWay}"  TextChanged="tbxQty_TextChanged"
+                          MaxLength="4"  TextWrapping="Wrap" Hint="Qty" BorderBrush="Black" HorizontalAlignment="Left" Width="105" Margin="56,16,0,11" Grid.Column="1" Grid.ColumnSpan="2" />
+            <Button Grid.Row="1" BorderBrush="Black" Foreground="Black" Background="{Binding PrimaryColour}" Height="80" Content="Update" Command="{Binding NavigateToPillsreminderPage, Mode=TwoWay}" VerticalAlignment="Bottom" Grid.ColumnSpan="3" ></Button>
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>

@@ -1,0 +1,136 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyLocalPharmacy.View.ResetPinLogin"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:abu="clr-namespace:AppBarUtils;assembly=AppBarUtils"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" IsHitTestVisible="{Binding HitVisibility}"  >
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding Background, Source={StaticResource MultiResImageChooserUri}}"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Height="80" Margin="0,0,0,0" Background="{Binding PrimaryColour}" >
+            <TextBlock Text="reset pin" FontSize="50" Margin="12,0,0,5" Style="{StaticResource PhoneTextTitle1Style}" Foreground="Black"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="0" Height="5" VerticalAlignment="Bottom" Margin="0,-5" Background="{Binding SecondaryColour}" ></StackPanel>
+        
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,5,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height=".75*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height=".4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height=".4*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <RichTextBox Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Margin="12,10,12,0" Height="106" Foreground="Black">
+                <Paragraph>
+                    <Run Text="Please check your mobile phone or Email for confirmation. You have been sent an authorization code. Please enter it below."/>
+                </Paragraph>
+            </RichTextBox>
+            <TextBlock Text="Enter Authorisation Code:" Foreground="Black" Grid.Row="1" HorizontalAlignment="Center"></TextBlock>
+            <Border Grid.Row="2" BorderThickness="{Binding AuthCodeBorder,Mode=TwoWay}" BorderBrush="Red">
+                
+                <toolkit:PhoneTextBox x:Name="tbxID"  TextAlignment="Center" TextChanged="tbxID_TextChanged"   Hint="Authorisation Code"  VerticalAlignment="Center" Width="446" BorderBrush="Black" BorderThickness="0,0,0,2" Foreground="#59000000" Text="{Binding AuthCode,Mode=TwoWay}" />
+            </Border>
+            <TextBlock x:Name="tbkValidateAuthCode"  Margin="12,0" Grid.Row="3" Grid.ColumnSpan="2" Text="Please provide authorisation code"  VerticalAlignment="Top" FontSize="18"
+                           Visibility="{Binding IsAuthCodeValidatorVisible}" Foreground="Red"/>
+            <toolkit:PhoneTextBox  Grid.Row="4" IsReadOnly="True" Tap="tbxPIN_Tap"  Hold="tbxPIN_Tap"  Visibility="{Binding IsLoginPinTextBoxVisible}" x:Name="tbxPIN" BorderThickness="0,0,0,2" Hint="Tap to set up a PIN" BorderBrush="Black" Foreground="Black" Canvas.ZIndex="2"/>
+            <Border Grid.Row="4" BorderThickness="{Binding PinBorder,Mode=TwoWay}" BorderBrush="Red">
+            <PasswordBox   Grid.Row="4" Tap="tbxPIN_Tap"  Hold="tbxPIN_Tap"  Visibility="{Binding IsSignUpPasswordBoxPinVisible}" 
+                                      Password="{Binding DisplaySignUpPin,Mode=TwoWay}" x:Name="passwrdbxPin" BorderThickness="0,0,0,2" BorderBrush="Black" />
+            </Border>
+            <TextBlock x:Name="tbkValidatePin"  Margin="12,-5" Grid.Row="5" Grid.ColumnSpan="2" Text="Please provide PIN"  VerticalAlignment="Center" FontSize="18"
+                           Visibility="{Binding IsPinValidatorVisible}" Foreground="Red"/>
+            <Popup x:Name="popupIncorrectCode"  Grid.Row="1"  VerticalAlignment="Center" IsOpen="{Binding IsIncorrectPopupOpen}" Canvas.ZIndex="10" >
+                <Grid Height="200"  Width="454" Background="#FF566A74" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="4*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12" Foreground="White"/>
+                    <RichTextBox Grid.Row="1" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Foreground="White">
+                        <Paragraph>
+                            <Run Text="Incorrect Code Provided."  />
+                        </Paragraph>
+                    </RichTextBox>
+                    <Button x:Name="btnPopupIncorrectOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding IncorrectOkCommand}" Foreground="White" BorderBrush="White"/>
+                </Grid>
+            </Popup>
+            
+            <Popup x:Name="popupReset" Grid.Row="1" IsOpen="{Binding IsResetPopupOpen, Mode=TwoWay}" VerticalAlignment="Center" >
+                <Grid Background="#FF566A74" Height="200"  Width="453">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="4*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12"/>
+                    <TextBlock Text="PIN has been reset." TextAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+                    <Button x:Name="btnOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding ResetOkCommand}"/>
+                </Grid>
+            </Popup>
+
+            <Popup x:Name="popupNoUser"  Grid.Row="1" IsOpen="{Binding IsNoUserPopupOpen, Mode=TwoWay}" VerticalAlignment="Center" Canvas.ZIndex="10">
+                <Grid Background="#FF566A74" Height="200"  Width="453">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="4*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12"/>
+                    <TextBlock Text="No Such User." TextAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+                    <Button x:Name="btnNoUserOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding NoUserOkCommand}"/>
+                </Grid>
+            </Popup>
+
+            <Popup x:Name="popupNoInternet"  Grid.Row="1" IsOpen="{Binding IsNoInternetPopupOpen, Mode=TwoWay}" VerticalAlignment="Center" Canvas.ZIndex="10">
+                <Grid Background="#FF566A74" Height="200"  Width="453">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="4*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12"/>
+                    <TextBlock Text="No Internet Connectivity." TextAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+                    <Button x:Name="btnNointernetOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding NoInternetOkCommand}"/>
+                </Grid>
+            </Popup>
+
+        </Grid>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" ForegroundColor="Black" BackgroundColor="#FFC0E2E1">
+            <shell:ApplicationBarIconButton IconUri="/Assets/Icons/check.png" Text="ok" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    <i:Interaction.Behaviors>
+        <abu:AppBarPropertyBinder ForegroundColor="Black" BackgroundColor="{Binding AppBarPrimaryColour}"/>
+        <abu:AppBarItemCommand
+        Id="ok" Command="{Binding VerifiedOkCommand}"/>
+    </i:Interaction.Behaviors>
+
+</phone:PhoneApplicationPage>

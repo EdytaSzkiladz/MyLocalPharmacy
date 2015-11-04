@@ -1,0 +1,205 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyLocalPharmacy.View.MapServices"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+   xmlns:toolkitMap="clr-namespace:Microsoft.Phone.Maps.Toolkit;assembly=Microsoft.Phone.Controls.Toolkit"
+
+xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    
+    xmlns:abu="clr-namespace:AppBarUtils;assembly=AppBarUtils"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+	
+    <!--xmlns:toolkit="clr-namespace:Microsoft.Phone.Maps.Toolkit;assembly=Microsoft.Phone.Controls.Toolkit"-->
+
+    <phone:PhoneApplicationPage.Resources>
+        <Style TargetType="toolkitMap:Pushpin" x:Key="PushpinStyle">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="toolkitMap:Pushpin">
+                        <Image Source="/Assets/Icons/PIN_80.png" Stretch="None"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="Black" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding Background, Source={StaticResource MultiResImageChooserUri}}"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Popup x:Name="popupDetails" Margin="12,60,12,12"  Grid.Row="1" IsOpen="{Binding IsPopupOpen, Mode=TwoWay}" >
+            <!--TitlePanel contains the name of the application and page title-->
+            <Grid Height="400"  Width="454" Background="#FF566A74" Opacity="0.7" >
+                <Grid.RowDefinitions>
+                    <!--{Binding PrimaryColour}-->
+                    <RowDefinition Height="4*"></RowDefinition>
+                    <RowDefinition Height="0*"></RowDefinition>
+
+                    <RowDefinition Height=".2*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height=".2*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height=".2*"></RowDefinition>
+                    <RowDefinition Height="4*"></RowDefinition>
+                    <RowDefinition Height="0.2*"></RowDefinition>
+                    <RowDefinition Height="4*"></RowDefinition>
+                    <RowDefinition Height="0*"></RowDefinition>
+                </Grid.RowDefinitions>
+                
+                <StackPanel Grid.Row="0" Canvas.ZIndex="2" HorizontalAlignment="Center" Margin="0,0,0,0"   >
+                    <TextBlock Text="details" Foreground="Black" Margin="9,-7,0,0" Canvas.ZIndex="2" FontSize="50"/>
+                </StackPanel>
+                <!--<StackPanel Grid.Row="1" Margin="0,0,0,0"  Grid.ColumnSpan="2" Height="5" VerticalAlignment="Top" Background="{Binding SecondaryColour}" />-->
+
+
+                <!--<StackPanel Margin="0,5" Canvas.ZIndex="2" Height="3" VerticalAlignment="Top"  Grid.Row="3" Grid.ColumnSpan="2" Background="{Binding SecondaryColour}" ></StackPanel>-->
+
+                <StackPanel Margin="4,6,4,4"     Grid.Row="3" Grid.ColumnSpan="2" Background="White" >
+                <TextBlock x:Name="tbkName"  Text="The Royal London Hospital"   VerticalAlignment="Center" FontSize="25" 
+                                FontWeight="SemiBold"   TextWrapping="Wrap"   Foreground="Black"/>
+                </StackPanel>
+                <StackPanel Margin="4,1,4,4"   Grid.Row="4" Grid.ColumnSpan="2" Background="LightGray" ></StackPanel>
+
+                <StackPanel Margin="4,1,4,4"   Grid.Row="5" Grid.ColumnSpan="2" Background="White" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <TextBlock x:Name="tbkAddressLine1" Text="Some"  TextWrapping="Wrap" 
+                                   TextAlignment="Center" VerticalAlignment="Center" Foreground="Black"  
+                               Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Left" FontWeight="SemiBold" />
+                    <TextBlock x:Name="tbkAddressLine2" Text="where" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Foreground="Black"  
+                               Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" FontWeight="SemiBold" />
+                    <TextBlock x:Name="tbkAddressLine3" Text="Unknown"  TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Foreground="Black"  
+                               Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" FontWeight="SemiBold" />
+                    <TextBlock x:Name="tbkAddressLine4" Text="England"  TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Foreground="Black"  
+                               Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Left" FontWeight="SemiBold" />
+                    <TextBlock x:Name="tbkAddressLine5" Text="EUROPE" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Foreground="Black"  
+                               Grid.Row="4" Grid.ColumnSpan="2" HorizontalAlignment="Left" FontWeight="SemiBold" />
+                    <TextBlock x:Name="tbkAddressLine6" Text="AA99AA" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Foreground="Black"  
+                               Grid.Row="5" Grid.ColumnSpan="2" HorizontalAlignment="Left" FontWeight="SemiBold" />
+                </StackPanel>
+
+
+                <StackPanel Margin="4,0,4,4"   Grid.Row="6" Grid.ColumnSpan="2" Background="LightGray" ></StackPanel>
+
+                <StackPanel Margin="4,0,4,4" x:Name="callStack"  Height="50"  Grid.Row="7" Grid.ColumnSpan="2" VerticalAlignment="Center"  Background="White" Tap="callStack_Tap">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Image Source="..\Assets\Icons\phone.png"  HorizontalAlignment="Left"  
+                                   Grid.Column="0" Grid.Row="0"  Height="35" Margin="4,8,0,0"
+                               VerticalAlignment="Center"/>
+                    <TextBlock x:Name="tbkphonenumber"  Grid.Column="1" Grid.Row="0" Margin="50,-32,20,32" Foreground="Black" 
+                                    VerticalAlignment="Center" Height="35" Text="123456" FontWeight="SemiBold"  TextWrapping="Wrap"/>
+                </StackPanel>
+
+                <StackPanel Margin="4,0,4,4"   Grid.Row="8" Grid.ColumnSpan="2" Background="LightGray" ></StackPanel>
+
+
+                <StackPanel Margin="4,0,4,12" x:Name="directionStack" Height="50"  Grid.Row="9" Grid.ColumnSpan="2" VerticalAlignment="Center"  Background="White" Tap="directionStack_Tap">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Image Source="..\Assets\Icons\location48.png" Canvas.ZIndex="4" x:Name="imggetdirec"  HorizontalAlignment="Left"  
+                                   Grid.Column="0" Grid.Row="0" Height="35" Margin="4,8,0,0"></Image>
+                    <TextBlock  Grid.Column="1" Grid.Row="0" x:Name="tbkdir" Margin="50,-32,20,32" FontWeight="SemiBold" 
+                                    Foreground="Black" VerticalAlignment="Center" Height="35" Text="Get Directions" TextWrapping="Wrap"></TextBlock>
+                </StackPanel>
+            </Grid>
+            
+        </Popup>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="0,0,0,0"  Height="80" Background="{Binding PrimaryColour}">
+            <TextBlock x:Name="tbkTitle" Text="dentist" Margin="12,10,12,10" Foreground="{Binding FontColor}" FontSize="50"/>
+            
+        </StackPanel>
+        <StackPanel  Grid.Row="0" Height="5" VerticalAlignment="Bottom" Margin="0,-5" Background="{Binding SecondaryColour}" ></StackPanel>
+
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,5,0,0">
+            <ProgressBar  x:Name="progressBarMap" IsIndeterminate="True" VerticalAlignment="Top" 
+                                Visibility="{Binding ProgressBarVisibilty}" Margin="0,4" Canvas.ZIndex="4" ></ProgressBar>
+            <TextBlock x:Name="tbkHint" Margin="18,23" Visibility="Collapsed" Canvas.ZIndex="3" Text="postcode or location" Foreground="Black" VerticalAlignment="Top"></TextBlock>
+            <toolkit:PhoneTextBox x:Name="tbxSearch" Foreground="Black" Visibility="Collapsed"  Canvas.ZIndex="2" KeyUp="tbxSearch_KeyUp" ActionIcon="/Assets/Icons/feature.search.png"   HorizontalAlignment="Stretch" 
+                              InputScope="Search"  ActionIconTapped="tbxSearch_ActionIconTapped" Background="LightGray" GotFocus="tbxSearch_GotFocus" VerticalAlignment="Top" LostFocus="tbxSearch_LostFocus"  />
+            
+            <TextBlock x:Name="tbkNoResult" Text="No Results Found." Foreground="Black" HorizontalAlignment="Center" Visibility="Collapsed" Canvas.ZIndex="3" Margin="0,10"></TextBlock>
+            
+        </Grid>
+        <Popup x:Name="popupNoInternet"  Grid.Row="1" IsOpen="{Binding IsNoInternetPopupOpen, Mode=TwoWay}" HorizontalAlignment="Center" Margin="-454,-200,0,0" VerticalAlignment="Center" Canvas.ZIndex="10">
+            <Grid Background="#FF566A74" Height="200"  Width="454">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="3*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12"/>
+                <TextBlock Text="No Internet Connectivity." TextAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+                <Button x:Name="btnNointernetOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding NoInternetOkCommand}"/>
+            </Grid>
+        </Popup>
+    </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" ForegroundColor="Black" >
+            <shell:ApplicationBarIconButton  x:Name="searchButton" IconUri="/Assets/Icons/feature.search.png" Text="search" Click="searchButton_Click" />
+            <!--<shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="abItemRoad" Text="road" Click="abItemRoad_Click"/>
+                <shell:ApplicationBarMenuItem x:Name="abItemHybrid" Text="hybrid" Click="abItemHybrid_Click"/>
+                <shell:ApplicationBarMenuItem x:Name="abItemAerial" Text="aerial" Click="abItemAerial_Click"/>
+                <shell:ApplicationBarMenuItem x:Name="abItemTerrain" Text="terrain" Click="abItemTerrain_Click"/>
+            </shell:ApplicationBar.MenuItems>-->
+
+        </shell:ApplicationBar>
+        
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    <i:Interaction.Behaviors>
+        <abu:AppBarPropertyBinder ForegroundColor="Black" BackgroundColor="{Binding PrimaryColour}"/>
+    </i:Interaction.Behaviors>
+
+</phone:PhoneApplicationPage>

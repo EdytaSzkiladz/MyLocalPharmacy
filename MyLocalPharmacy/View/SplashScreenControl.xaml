@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="MyLocalPharmacy.View.SplashScreenControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="480" d:DesignWidth="480">
+
+    <Grid x:Name="LayoutRoot" Background="White" Width="480">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="0.3*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image  HorizontalAlignment="Center" Grid.Row="0"    Name="image1" Stretch="None" VerticalAlignment="Center"  Source="{Binding StaticSplash, Source={StaticResource MultiResImageChooserUri}}" />
+        <TextBlock HorizontalAlignment="Center"   Name="tbxLocalPharmacylabel" Text="My Local Pharmacy"  Foreground="Black" FontSize="22" Margin="140,664,153,99" />
+        <TextBlock HorizontalAlignment="Center"   Name="tbxRxLabel" Text="By Rx Systems" Foreground="Black" FontSize="22" Margin="161,695,182,64" />
+        <ProgressBar HorizontalAlignment="Left" Name="progBarSplash" Width="383" Margin="10,705,0,35"  />
+
+    </Grid>
+</UserControl>

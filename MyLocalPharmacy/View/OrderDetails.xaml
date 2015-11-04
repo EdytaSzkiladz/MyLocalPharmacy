@@ -1,0 +1,146 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyLocalPharmacy.View.OrderDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" IsHitTestVisible="{Binding HitVisibility}">
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding Background, Source={StaticResource MultiResImageChooserUri}}"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="0,0,0,0" Height="80" Background="{Binding PrimaryColour}">
+            <TextBlock Text="order details"  FontSize="50" Margin="12,0" Foreground="{Binding FontColor}"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="0" Height="5" VerticalAlignment="Bottom" Margin="0,-5" Background="{Binding SecondaryColour}" ></StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <ScrollViewer Grid.Row="1" Margin="12,5,12,0">
+        <Grid x:Name="ContentPanel" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="tbxOrderDate" Height="50"  Grid.Row="0" Foreground="Black" Text="{Binding OrderDate}" VerticalAlignment="Bottom" />
+            <StackPanel Margin="0,5,0,10" Grid.Row="0" VerticalAlignment="Bottom" Canvas.ZIndex="2"  Height="3" Background="LightGray" ></StackPanel>
+
+            <Popup x:Name="popupCancelled"  Grid.Row="2" IsOpen="{Binding IsPopupCancelledOpen, Mode=TwoWay}" HorizontalAlignment="Center" Margin="-454,-200,0,0" VerticalAlignment="Center" Canvas.ZIndex="10">
+                <Grid Background="#FF566A74" Height="200"  Width="454" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="4*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12"/>
+                    <TextBlock Text="{Binding PopupCancelText}" TextAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+                    <Button x:Name="btnCancelledPopupOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding PopupCancelledOkCommand}"/>
+                </Grid>
+            </Popup>
+
+            <Popup x:Name="popupConfirm"   Grid.Row="2" IsOpen="{Binding IsConfirmPopupOpen, Mode=TwoWay}" HorizontalAlignment="Center" Margin="-454,-200,0,0" VerticalAlignment="Center" Canvas.ZIndex="10" >
+                <Grid Height="200"  Width="454" Background="#FF566A74" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="4.5*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12,7,12,0" Foreground="White" Height="40"/>
+                    <TextBlock Text="{Binding PopupTextConfirm}" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Foreground="White"/>
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="227"/>
+                            <ColumnDefinition Width="227"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnPopupcancel" Content="Cancel" Grid.Column="0" Margin="-12"  BorderThickness="0,1,1,0" Command="{Binding CancelCommandPopup}" Foreground="White" BorderBrush="White"/>
+                        <Button x:Name="btnPopupOk" Content="OK" Grid.Column="1" Margin="-12"  BorderThickness="0,1,0,0" Command="{Binding OkComandPopup}" Foreground="White" BorderBrush="White"/>
+                    </Grid>
+                </Grid>
+            </Popup>
+
+            <Grid Margin="0" Grid.Row="1">
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=".87*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                    <TextBlock Height="35" Text="Item" FontWeight="Medium"  Foreground="Black" Grid.Row="0" Grid.Column="0"/>
+                    <TextBlock Height="Auto" Text="{Binding DrugName}" Foreground="Black" TextWrapping="Wrap"  Grid.Row="0" Grid.Column="1"/>
+                    <TextBlock Height="35" Text="Quantity" FontWeight="Medium" Foreground="Black" Grid.Row="1" Grid.Column="0"/>
+                    <TextBlock  Text="{Binding DrugQuantity}" Foreground="Black" Grid.Row="1" Grid.Column="1"/>
+                    <TextBlock Height="45" Text="Status" FontWeight="Medium" Foreground="Black" Grid.Row="2" Grid.Column="0"/>
+                    <StackPanel  Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                        <TextBlock Text="{Binding DrugStatus}" Foreground="{Binding StatusFontColour, Mode=TwoWay}" />
+                        <TextBlock Text=" " Foreground="Black" />
+                        <TextBlock Text="{Binding TimeRange}" Foreground="Black" Width="Auto"/>
+                    <TextBlock Text="," Foreground="Black" />
+                        <TextBlock Text="{Binding Time}" Foreground="Black" Width="Auto" />
+
+                </StackPanel>
+
+            </Grid>
+            <StackPanel Margin="0,5,0,10" Grid.Row="1" VerticalAlignment="Bottom" Canvas.ZIndex="2"  Height="3" Background="LightGray" ></StackPanel>
+
+            <Grid Grid.Row="2" Margin="0">
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.8*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Oredered" Foreground="Black" Grid.Row="0" Grid.Column="0"/>
+                <TextBlock Text="Prescription request sent to pharmacy" TextWrapping="Wrap" Foreground="Black" Grid.Row="0" Grid.Column="1"/>
+                <TextBlock Text="Order received" Foreground="Black" Grid.Row="1" Grid.Column="0"/>
+                <TextBlock Text="Prescription request received by pharmacy" TextWrapping="Wrap" Foreground="Black" Grid.Row="1" Grid.Column="1"/>
+                <TextBlock Text="Declined" TextWrapping="Wrap" Foreground="Black" Grid.Row="2" Grid.Column="0"/>
+                <TextBlock Text="Prescription request received but rejected - please contact the pharmacy" TextWrapping="Wrap" Foreground="Black" Grid.Row="2" Grid.Column="1"/>
+                <TextBlock Text="Ready for collection"  Foreground="Black" Grid.Row="3" Grid.Column="0"/>
+                <TextBlock Text="Prescription ready for collection" Foreground="Black" TextWrapping="Wrap" Grid.Row="3" Grid.Column="1"/>
+                <TextBlock Text="Ready for delivery"   Foreground="Black" Grid.Row="4" Grid.Column="0"/>
+                <TextBlock Text="Prescription ready for next delivery run" Foreground="Black" TextWrapping="Wrap" Grid.Row="4" Grid.Column="1"/>
+
+
+            </Grid>
+            <StackPanel Margin="0,5,0,-10" Grid.Row="2" VerticalAlignment="Bottom" Canvas.ZIndex="2"  Height="3" Background="LightGray" ></StackPanel>
+
+            <StackPanel Orientation="Vertical" Grid.Row="3" VerticalAlignment="Top" Margin="0,15,0,0">
+                <TextBlock Text="Reason for ordering (optional)" FontWeight="Medium" Foreground="Black" />
+                    <TextBox Text="{Binding ReasonForOrdering,Mode=TwoWay}" IsHitTestVisible="{Binding ReasonHitVisibility}" Margin="-12,0,-12,0" MaxLength="150"  TextWrapping="Wrap" Background="Transparent" BorderBrush="LightGray" BorderThickness="0,0,0,2"></TextBox>
+        </StackPanel>
+            
+        </Grid>
+        </ScrollViewer>
+        <Button x:Name="btnCancelOrder" Content="{Binding CancelReorder}" Command="{Binding CancelOrderCommand}" Grid.Row="2" Foreground="Black" Background="{Binding PrimaryColour}" BorderBrush="Black" Height="80" VerticalAlignment="Bottom"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>

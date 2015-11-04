@@ -1,0 +1,87 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyLocalPharmacy.View.ConfirmResetPin"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding Background, Source={StaticResource MultiResImageChooserUri}}"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="144"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="" Style="{StaticResource PhoneTextNormalStyle}" Foreground="Black"/>
+            <TextBlock Text="Confirm PIN" Margin="0,-7,0,0" TextAlignment="Center" Height="45" FontSize="22" FontFamily="Verdana" Foreground="Black"  />
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="-10,120,-8,-12" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="PasswordPanel" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Top">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="9*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <PasswordBox  x:Name="passwrdbxPin" InputMethod.IsInputMethodEnabled="False" IsHitTestVisible="False" Password="{Binding Pin, Mode=TwoWay}"  FontSize="30" Grid.Row="0" Grid.Column="0" Margin="20,-13,17,-20" BorderThickness="0.0" Grid.ColumnSpan="2" BorderBrush="Black" GotFocus="passwrdbxPin_GotFocus"/>
+                <Button x:Name="Image" Grid.Column="1" Margin="-13.5,-13.5,0,-13.5" Click="Image_Click" >
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="/Assets/Icons/windows-back-black-2.png"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock x:Name="tbkPinLength" Text="{Binding PinLengthMessage}" 
+                           Visibility="{Binding IsPinValidatorVisible}" Grid.Row="1" Grid.ColumnSpan="2" Margin="-20,10,37,-27" Foreground="Red"/>
+            </Grid>
+            <Button Tag="Tag1" x:Name="btn1" Content="1"  Grid.Row="1" Grid.Column="1" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="0.0" Click="Button_Click" CommandParameter="{Binding Tag}" BorderBrush="Black" Foreground="Black"/>
+            <Button Tag="Tag2" x:Name="btn2" Content="2"   Grid.Row="1" Grid.Column="2" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="3,0,3,0" Click="Button_Click" Foreground="Black" BorderBrush="Black"/>
+            <Button Tag="Tag3" x:Name="btn3" Content="3"   Grid.Row="1" Grid.Column="3" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="0.0" Click="Button_Click"  BorderBrush="Black" Foreground="Black"/>
+            <Button Tag="Tag4" x:Name="btn4" Content="4"   Grid.Row="2" Grid.Column="1" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="0,3,0,3" Click="Button_Click" Foreground="Black" BorderBrush="Black"/>
+            <Button Tag="Tag5" x:Name="btn5" Content="5"   Grid.Row="2" Grid.Column="2" Margin="-13.5,-13.5,-13.5,-13.5" Click="Button_Click" BorderBrush="Black" Foreground="Black"/>
+            <Button Tag="Tag6" x:Name="btn6" Content="6"   Grid.Row="2" Grid.Column="3" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="0,3,0,3" Click="Button_Click" Foreground="Black" BorderBrush="Black"/>
+            <Button Tag="Tag7" x:Name="btn7" Content="7"   Grid.Row="3" Grid.Column="1" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="0,0,0,3" Click="Button_Click" BorderBrush="Black" Foreground="Black"/>
+            <Button Tag="Tag8" x:Name="btn8" Content="8"   Grid.Row="3" Grid.Column="2" Margin="-13.5,-13.5,-13.5,-13.5" Click="Button_Click" Foreground="Black" BorderBrush="Black" />
+            <Button Tag="Tag9" x:Name="btn9" Content="9"   Grid.Row="3" Grid.Column="3" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="0,0,0,3" Click="Button_Click" BorderBrush="Black" Foreground="Black"/>
+            <Button Tag="Tag1" x:Name="btnCancel"  Click="btnCancel_Click" Content="Cancel"   Grid.Row="4" Grid.Column="1" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="0.0" Foreground="Black" BorderBrush="Black"/>
+            <Button Tag="Tag0" x:Name="btn0" Content="0"   Grid.Row="4" Grid.Column="2" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="3,0,3,0" Click="Button_Click" BorderBrush="Black" Foreground="Black"/>
+            <Button Tag="Tag1" x:Name="btnOk" Command="{Binding ConfirmPin}" Content="OK"   Grid.Row="4" Grid.Column="3" Margin="-13.5,-13.5,-13.5,-13.5" BorderThickness="0.0" Foreground="Black" BorderBrush="Black"/>
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="542,139,-162,0" Grid.Row="1" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>

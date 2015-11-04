@@ -1,0 +1,107 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyLocalPharmacy.View.Verification"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" IsHitTestVisible="{Binding HitVisibility}">
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding Background, Source={StaticResource MultiResImageChooserUri}}"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="0,0,0,0" Background="#FFC0E2E1">
+            <TextBlock Text="verification" Style="{StaticResource PhoneTextTitle1Style}" Foreground="Black"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1.5*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="2*"/>
+                    
+                </Grid.RowDefinitions>
+                <RichTextBox Grid.Row="0" VerticalAlignment="Bottom" Foreground="Black">
+                    <Paragraph TextAlignment="Center">
+                        <Run Text="Your account has been created. Please follow the instructions in your email/SMS to continue with the activation process." ></Run>
+                    </Paragraph>
+                </RichTextBox>
+
+                <Popup x:Name="popupVerified" Opacity="90" Grid.Row="1" IsOpen="{Binding IsPopupOpen, Mode=TwoWay}" >
+                    <Grid Height="200"  Width="454" Background="#FF566A74" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="3*"></RowDefinition>
+                            <RowDefinition Height="4.5*"></RowDefinition>
+                            <RowDefinition Height="3*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12" Foreground="White"/>
+                        <TextBlock Text="Your account has been successfully verified." TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Foreground="White" />
+                        <Button x:Name="btnOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding OkCommand}"  Foreground="White" BorderBrush="White"/>
+                    </Grid>
+                </Popup>
+
+                <Popup x:Name="popupConfirmationSend" Opacity="90" Grid.Row="1" IsOpen="{Binding IsConfirmationPopupOpen, Mode=TwoWay}" >
+                    <Grid Background="#FF566A74" Height="250"  Width="453">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="4*"></RowDefinition>
+                            <RowDefinition Height="3*"></RowDefinition>
+                            <RowDefinition Height="3*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12" Foreground="White"/>
+                        <RichTextBox Grid.Row="1" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Foreground="White">
+                            <Paragraph>
+                                <Run Text="Confirmation email has already been sent. Please try again in a few minutes."  />
+                            </Paragraph>
+                        </RichTextBox>
+                        <Button x:Name="btnConfirmationOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding ConfirmationOkCommand}" Foreground="White" BorderBrush="White"/>
+                    </Grid>
+                </Popup>
+
+                <Popup x:Name="popupNoInternet" Opacity="90" Grid.Row="1" IsOpen="{Binding IsNoInternetPopupOpen, Mode=TwoWay}" >
+                    <Grid Background="#FF566A74" Height="250"  Width="453">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="4*"></RowDefinition>
+                            <RowDefinition Height="2*"></RowDefinition>
+                            <RowDefinition Height="3*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12" Foreground="White"/>
+                        <TextBlock Text="No Internet Connectivity." TextAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Foreground="White"/>
+                        <Button x:Name="btnNointernetOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding NoInternetOkCommand}" Foreground="White" BorderBrush="White"/>
+                    </Grid>
+                </Popup>
+
+                <Popup x:Name="popupMailResent" Opacity="90" Grid.Row="1" IsOpen="{Binding IsResendPopupOpen, Mode=TwoWay}" >
+                    <Grid Background="#FF566A74" Height="250"  Width="453">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="4*"></RowDefinition>
+                            <RowDefinition Height="2*"></RowDefinition>
+                            <RowDefinition Height="3*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="My Local Pharmacy" VerticalAlignment="Center" FontSize="25" Grid.Row="0" Margin="12" Foreground="White"/>
+                        <TextBlock Text="Mail has been resent." TextAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Foreground="White"/>
+                        <Button x:Name="btnResendOk" Content="OK" Margin="-12" Grid.Row="2" BorderThickness="0,1,0,0" Command="{Binding ResendOkCommand}" Foreground="White" BorderBrush="White"/>
+                    </Grid>
+                </Popup>
+
+                <Button x:Name="btnResend" Content="Resend Confirmation email" Grid.Row="2" VerticalAlignment="Bottom" Command="{Binding ResendCommand}" BorderBrush="Black" Background="#FFC0E2E1" Foreground="Black"/>
+            </Grid>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

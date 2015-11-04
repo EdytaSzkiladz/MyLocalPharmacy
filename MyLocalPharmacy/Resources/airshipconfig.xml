@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AirshipConfig>
+  <!-- NOTE: These elements must be in alphabetical order. -->
+  <DevelopmentAppKey>zGAQZpeyQ3mdj5C74nLXwQ</DevelopmentAppKey>
+  <DevelopmentAppSecret>cYxtekRiTzWYLFxO_rzNxg</DevelopmentAppSecret>
+  <DevelopmentLogLevel>Debug</DevelopmentLogLevel>
+  <InProduction>false</InProduction>
+  <MPNSChannelName>MyLocalPharmacy</MPNSChannelName>
+  <MPNSServiceName>rxmobile.rxsystems.org.uk</MPNSServiceName>
+  <ProductionAppKey>zGAQZpeyQ3mdj5C74nLXwQ</ProductionAppKey>
+  <ProductionAppSecret>cYxtekRiTzWYLFxO_rzNxg</ProductionAppSecret>
+  <ProductionLogLevel>Error</ProductionLogLevel>
+</AirshipConfig>

@@ -1,0 +1,530 @@
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+c:\users\pramodh\documents\visual studio 2012\Projects\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+D:\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetails.g.cs
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+D:\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csprojResolveAssemblyReference.cache
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConditionLeaflets.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csprojResolveAssemblyReference.cache
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConditionLeaflets.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsUpdate.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsLogin.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmPin.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SetPin.g.cs
+D:\7-AUG-2014\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailswithTC.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csprojResolveAssemblyReference.cache
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConditionLeaflets.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmPin.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SetPin.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsUpdate.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsLogin.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailswithTC.g.cs
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+E:\Documents\Abhi\QBurst\RX-Share\MyPharmacyCodeChanges\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SetPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsUpdate.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsLogin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailswithTC.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Menu.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Verification.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConditionLeaflets.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Menu.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SetPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Verification.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsUpdate.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsLogin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailswithTC.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csprojResolveAssemblyReference.cache
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConditionLeaflets.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmPin.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Menu.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SetPin.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Verification.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsUpdate.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsLogin.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailswithTC.g.cs
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+D:\pramodh-share\MyLocalPharamacy_12Aug_4_45pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\FindService.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\VerifyBySms.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csprojResolveAssemblyReference.cache
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConditionLeaflets.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmPin.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\FindService.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Menu.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SetPin.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Verification.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\VerifyBySms.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsUpdate.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsLogin.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailswithTC.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmResetPin.g.cs
+D:\MyLocalPharmacy_13Aug_9_45am\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ResetPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmResetPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\FindService.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ResetPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\VerifyBySms.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SelectSurgery.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\Test Good\Temp\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csprojResolveAssemblyReference.cache
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmResetPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ResetPin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SelectSurgery.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\HomePanorama.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppBarUtils.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\System.Windows.Interactivity.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll.config
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\GalaSoft.MvvmLight.WP71.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Expression.Interactions.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\WPUtils.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll.config
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppBarUtils.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Expression.Interactions.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\System.Windows.Interactivity.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConditionLeaflets.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmPin.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmResetPin.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\FindService.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\HomePanorama.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Menu.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ResetPin.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SelectSurgery.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SetPin.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Verification.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\VerifyBySms.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsUpdate.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsLogin.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailswithTC.g.cs
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+D:\BYAbhijithon14AUG20145PM\MyLocalPharmacy_14Aug5.00pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csprojResolveAssemblyReference.cache
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacySupportPage.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Settings.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SettingsChangePin.g.cs
+E:\Documents\Abhi\QBurst\Projects\Samples\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SettingsConfirmChangePin.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll.config
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppBarUtils.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Expression.Interactions.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\System.Windows.Interactivity.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csprojResolveAssemblyReference.cache
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConditionLeaflets.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmPin.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmResetPin.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\FindService.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\HomePanorama.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Menu.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacySupportPage.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ResetPin.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SelectSurgery.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SetPin.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Settings.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SettingsChangePin.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SettingsConfirmChangePin.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Verification.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\VerifyBySms.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsUpdate.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsLogin.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailswithTC.g.cs
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+D:\pramodh-share\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\ApplicationIcon.png
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll.config
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy.pdb
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppManifest.xaml
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Properties\WMAppManifest.xml
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\MyLocalPharmacy_Debug_AnyCPU.xap
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\AppBarUtils.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Expression.Interactions.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\System.Windows.Interactivity.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\App.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MainPage.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConditionLeaflets.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmPin.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ConfirmResetPin.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\EnterPin.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\FindService.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Home.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\HomePanorama.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapDenthist.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\MapPharmacyDetails.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Menu.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacyDetails.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PharmacySupportPage.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\PillReminder.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\ResetPin.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SelectSurgery.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SetPin.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Settings.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SettingsChangePin.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SettingsConfirmChangePin.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SignUp.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\SplashScreenControl.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\TermsAndConditions.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\Verification.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\VerifyBySms.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsUpdate.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailsLogin.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\View\YourDetailswithTC.g.cs
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.g.resources
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.Resources.AppResources.resources
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csproj.GenerateResource.Cache
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\XapCacheFile.xml
+D:\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy_18Aug_7.20pm\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.csprojResolveAssemblyReference.cache
+D:\Divya\19AUG_832PM\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.dll
+D:\Divya\19AUG_832PM\MyLocalPharmacy\MyLocalPharmacy\obj\Debug\MyLocalPharmacy.pdb
